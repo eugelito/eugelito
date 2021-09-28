@@ -25,6 +25,9 @@
   color: black;
 }
 
+.subtitle {
+  margin: 0 0 2rem 0;
+}
 
 .App-btn {
   background-color: black; /* Green */
@@ -49,6 +52,9 @@
   font-size: 16px;
 }
 
+a > i {
+  margin-right: 0.5rem;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -62,5 +68,5 @@
 .buttons {
   display: flex;
   justify-content: space-between;
-  width: 15rem;
+  width: 18rem;
 }
