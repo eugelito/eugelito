@@ -14,7 +14,7 @@ function Header() {
             Hey! I'm <span className="billboard-text__nickname">Euge,</span>
           </h1>
           <p>
-            a <b>Web Application Developer</b> currently working at{" "}
+            a <b className="billboard-role">Web Application Developer</b> currently working at{" "}
             <b>Allstate Northern Ireland.</b>
           </p>
           <ul className="billboard-social">

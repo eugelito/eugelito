@@ -1,0 +1,71 @@
+.billboard {
+  background-color: #303846;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .billboard-text {
+    color: white;
+    margin: 0 6vw;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin: 0 0 0.5rem 0;
+    font-size: 48px;
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  .billboard-text__nickname {
+    color: #10b9b3;
+  }
+
+  .billboard-social {
+    display: inline-flex;
+    li a {
+      display: inline-block;
+      &:hover {
+        color: #10b9b3;
+      }
+    }
+  }
+
+  .billboard-role {
+    color: #10b9b3;
+  }
+  
+  .billboard-image {
+    align-items: center;
+    margin-top: 23rem;
+    img {
+      border-radius: 50%;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .billboard-text > h1 {
+    font-size: 32px;
+  }
+  .fa-2x {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+    .billboard-image {
+      img {
+        display: none;
+      }
+    }
+  }
+
