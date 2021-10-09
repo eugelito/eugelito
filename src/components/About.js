@@ -7,7 +7,7 @@ function About() {
       <p className="content--about__paragraph">
         I love building beautiful websites with an intuitive user experience. My
         main interest is in Front End Development, Back End Development, User Experience
-        and User Interface Dedsign.
+        and User Interface Design.
       </p>
       <p>Some technologies I've worked with :</p>
         <ul className="content-technologies">
