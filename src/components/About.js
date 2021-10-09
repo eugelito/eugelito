@@ -10,7 +10,7 @@ function About () {
         </p>
         <a
           className="downloadCV--button"
-          href="https://drive.google.com/file/d/1aaN_lGkFpPsSPznNzqp6qMiQ2ArU5eCG/view?usp=sharing"
+          href="https://drive.google.com/file/d/1S1ymTQ5zH-O8VG-7Ah4aOQJqNRkmNpnC/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
