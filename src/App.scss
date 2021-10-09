@@ -1,0 +1,179 @@
+/* Global setup styles */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+html {
+  background-color: #f6f7f8;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.container{
+  flex: 1;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #fafafa;
+  border: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.billboard {
+  background-color: #303846;
+  height: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .billboard-text {
+    color: white;
+    margin: 0 6vw;
+  }
+
+  h1 {
+    text-align: center;
+    color: white;
+    margin: 0 0 0.5rem 0;
+    font-size: 48px;
+  }
+
+  h5 {
+    margin: 0;
+  }
+
+  .billboard-text__nickname {
+    color: #10b9b3;
+  }
+
+  .billboard-social {
+    display: inline-flex;
+    li a {
+      display: inline-block;
+      &:hover {
+        color: #10b9b3;
+      }
+    }
+  }
+
+  .billboard-image {
+    align-items: center;
+    margin-top: 23rem;
+    img {
+      border-radius: 50%;
+      -moz-user-select: none;
+      -webkit-user-select: none;
+      user-select: none;
+      pointer-events: none;
+    }
+  }
+}
+
+.container {
+  height: 100vh;
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  .content {
+    width: 70rem;
+    margin: 0 auto;
+    text-align: left;
+
+    > div:not(:first-of-type) {
+      margin-top: 5rem;
+    }
+
+    .content--about__paragraph {
+      width: 100%;
+    }
+
+    .content--contact a {
+      display: inline-block;
+      font-size: large;
+      color: #303846;
+      text-decoration: underline;
+      &:hover {
+        color: #10b9b3;
+      }
+    }
+  }
+
+  h1 {
+    text-align: left;
+    border-top: 12px solid #303846;
+    width: 8rem;
+    padding: 0.5rem 0 0;
+  }
+
+  .downloadCV--button {
+    background-color: #303846;
+    color: #fff;
+    border: 1px solid #303846;
+    padding: 8px;
+    width: 10rem;
+    border-radius: 16px;
+    text-align: center;
+    &:hover {
+      background: #10b9b3;
+      border: 1px solid #10b9b3;
+    }
+  }
+}
+
+.content--projects__soshealthcare:hover {
+  opacity: 62%;
+}
+
+@media only screen and (max-width: 768px) {
+  .billboard-text > h1 {
+    font-size: 32px;
+  }
+
+  .fa-2x {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .billboard-image {
+    img {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .container .content .content--about__paragraph {
+    width: 40rem;
+    line-height: 1.5;
+  }
+}

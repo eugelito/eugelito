@@ -1,0 +1,79 @@
+.projects--container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  gap: 1rem;
+}
+
+.projects--content {
+  width: 360px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0 3px 10px grey;
+  border-radius: 12px;
+  &:hover {
+    box-shadow: 0 0 2px 1px grey;
+    opacity: 75%;
+  }
+
+  .project--content__imageAnchor {
+     &:active, &:visited {
+       color: #303846;
+     }
+  }
+
+  .projects--button {
+    position: absolute;
+    margin-top: -15rem;
+    z-index: 2;
+    //z-index: 100;
+    //top: 0px;
+    // display: none;
+    &:hover {
+      display: block;
+    }
+  }
+
+  .projects--content:hover + .projects--button {
+    display: block;
+  }
+}
+
+.content--projects__description {
+  padding: 0 1rem;
+  &:active { 
+    color: #303846;
+  }
+}
+
+.projects--container > a {
+  flex-basis: 50%;
+}
+
+.content--projects__soshealthcareIMG {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  &:active { 
+    color: #303846;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .projects--content {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .content--projects__soshealthcareIMG {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .projects--content {
+    flex-grow: 1;
+  }
+}
