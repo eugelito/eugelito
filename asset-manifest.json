@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.400838fb.chunk.css",
+    "main.css": "/static/css/main.83646a57.chunk.css",
     "main.js": "/static/js/main.8e54da99.chunk.js",
     "main.js.map": "/static/js/main.8e54da99.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.20345310.js",
@@ -10,7 +10,7 @@
     "static/js/3.3dd61a46.chunk.js": "/static/js/3.3dd61a46.chunk.js",
     "static/js/3.3dd61a46.chunk.js.map": "/static/js/3.3dd61a46.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.400838fb.chunk.css.map": "/static/css/main.400838fb.chunk.css.map",
+    "static/css/main.83646a57.chunk.css.map": "/static/css/main.83646a57.chunk.css.map",
     "static/js/2.e138567f.chunk.js.LICENSE.txt": "/static/js/2.e138567f.chunk.js.LICENSE.txt",
     "static/media/Euge.3ca8ebd5.jpeg": "/static/media/Euge.3ca8ebd5.jpeg",
     "static/media/soshealthcareltd.65781746.png": "/static/media/soshealthcareltd.65781746.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.20345310.js",
     "static/js/2.e138567f.chunk.js",
-    "static/css/main.400838fb.chunk.css",
+    "static/css/main.83646a57.chunk.css",
     "static/js/main.8e54da99.chunk.js"
   ]
 }
