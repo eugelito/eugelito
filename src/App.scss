@@ -112,6 +112,10 @@ body {
       margin-top: 5rem;
     }
 
+    > div:last-of-type{
+      margin-bottom: 5rem;
+    }
+
     .content--about__paragraph {
       width: 100%;
     }
@@ -129,7 +133,6 @@ body {
 
   h1 {
     text-align: left;
-    border-top: 12px solid #303846;
     width: 8rem;
     padding: 0.5rem 0 0;
   }
