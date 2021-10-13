@@ -60,7 +60,7 @@ function Projects() {
             alt="sos healthcare ltd company logo"
           />
           <div className="content--projects__description">
-            <h4>eugelito.com Personal Website</h4>
+            <h4>Personal Website</h4>
             <p>
             First version of my personal website showcasing my projects built on HTML, SCSS and React.
             </p>
