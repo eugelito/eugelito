@@ -9,7 +9,7 @@ function About() {
         main interests is in Front End Development, Back End Development, User Experience
         and User Interface Design.
       </p>
-      <p>Some technologies I've worked with :</p>
+      <p>Some technologies I've worked with:</p>
         <ul className="content-technologies">
           <li>HTML5</li>
           <li>CSS3</li>
