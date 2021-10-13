@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9450044.chunk.css",
-    "main.js": "/static/js/main.64833c82.chunk.js",
-    "main.js.map": "/static/js/main.64833c82.chunk.js.map",
+    "main.css": "/static/css/main.5cb819a8.chunk.css",
+    "main.js": "/static/js/main.a5b68223.chunk.js",
+    "main.js.map": "/static/js/main.a5b68223.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.60e01bb9.js",
     "runtime-main.js.map": "/static/js/runtime-main.60e01bb9.js.map",
     "static/js/2.e138567f.chunk.js": "/static/js/2.e138567f.chunk.js",
@@ -10,15 +10,17 @@
     "static/js/3.d70ca222.chunk.js": "/static/js/3.d70ca222.chunk.js",
     "static/js/3.d70ca222.chunk.js.map": "/static/js/3.d70ca222.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c9450044.chunk.css.map": "/static/css/main.c9450044.chunk.css.map",
+    "static/css/main.5cb819a8.chunk.css.map": "/static/css/main.5cb819a8.chunk.css.map",
     "static/js/2.e138567f.chunk.js.LICENSE.txt": "/static/js/2.e138567f.chunk.js.LICENSE.txt",
     "static/media/Euge.3ca8ebd5.jpeg": "/static/media/Euge.3ca8ebd5.jpeg",
+    "static/media/UXUIPortfolio.b3e02b05.png": "/static/media/UXUIPortfolio.b3e02b05.png",
+    "static/media/personalwebsite.08caa27d.png": "/static/media/personalwebsite.08caa27d.png",
     "static/media/soshealthcareltd.65781746.png": "/static/media/soshealthcareltd.65781746.png"
   },
   "entrypoints": [
     "static/js/runtime-main.60e01bb9.js",
     "static/js/2.e138567f.chunk.js",
-    "static/css/main.c9450044.chunk.css",
-    "static/js/main.64833c82.chunk.js"
+    "static/css/main.5cb819a8.chunk.css",
+    "static/js/main.a5b68223.chunk.js"
   ]
 }
