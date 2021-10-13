@@ -6,7 +6,7 @@ function About() {
       <h1 id="about">About</h1>
       <p className="content--about__paragraph">
         I love building beautiful websites with an intuitive user experience. My
-        main interest is in Front End Development, Back End Development, User Experience
+        main interests is in Front End Development, Back End Development, User Experience
         and User Interface Design.
       </p>
       <p>Some technologies I've worked with :</p>
