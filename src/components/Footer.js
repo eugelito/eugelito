@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-text">
-      <a class="footer-github__link"
+      <a className="footer-github__link"
           href="https://github.com/eugelito/eugelito"
           target="_blank"
           rel="noopener noreferrer"
