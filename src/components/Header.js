@@ -1,21 +1,20 @@
-import Navbar from './Navbar';
-import './Header.scss';
+import Navbar from "./Navbar";
+import "./Header.scss";
 
 /** Images */
-import Eugejpg from "../../src/images/Euge.jpeg";
 
 function Header() {
   return (
     <header id="home">
-    <Navbar/>
+      <Navbar />
       <div className="billboard">
         <div className="billboard-text">
           <h1>
             Hey! I'm <span className="billboard-text__nickname">Euge,</span>
           </h1>
           <p>
-            a <b className="billboard-role">Web Application Developer</b> currently working at{" "}
-            <b>Allstate Northern Ireland.</b>
+            a <b className="billboard-role">Web Application Developer</b>{" "}
+            currently working at <b>Allstate Northern Ireland.</b>
           </p>
           <ul className="billboard-social">
             <li>
@@ -38,7 +37,13 @@ function Header() {
           </ul>
         </div>
         <div className="billboard-image">
-          <img src={Eugejpg} width="250" height="250" unselectable="on" alt="website creator smiling" />
+          <img
+            src={process.env.PUBLIC_URL + "images/Euge.jpeg"}
+            width="250"
+            height="250"
+            unselectable="on"
+            alt="website creator smiling"
+          />
         </div>
       </div>
     </header>
