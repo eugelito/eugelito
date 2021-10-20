@@ -3,7 +3,7 @@ import Data from "../Data";
 
 function Projects() {
   return (
-    <div>
+    <div class="content--projects">
       <h1 id="projects">Projects</h1>
       <div className="projects--container">
         { Data.map(post => {

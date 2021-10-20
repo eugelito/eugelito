@@ -68,9 +68,11 @@ body {
   }
 
   h1 {
+    display: inline-block;
     text-align: left;
-    width: 8rem;
+    margin: 0 0 2rem 0;
     padding: 0.5rem 0 0;
+    border-bottom: 8px solid #14b9af;
   }
 }
 
