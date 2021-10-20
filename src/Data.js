@@ -20,7 +20,7 @@ export const data =[
     "img": process.env.PUBLIC_URL + 'images/personalwebsite.png',
     "alt": "Personal website image",
     "title": "Personal Website",
-    "description": "First version of my personal website showcasing my projects built on HTML, SCSS and React.",
+    "description": "Built on HTML, SCSS and React this is my personal website showcasing my web development projects.",
     "urlLink": "https://eugelito.com/"
   }
 ]
