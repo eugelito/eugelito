@@ -1,6 +1,6 @@
 export const data =[
   {
-    "id": 1,
+    "id": 0,
     "img": process.env.PUBLIC_URL + 'images/soshealthcareltd.png',
     "alt": "sos healthcare ltd website image",
     "title": "SOS Healthcare Ltd",
@@ -8,7 +8,7 @@ export const data =[
     "urlLink": "https://soshealthcareltd.co.uk/"
   },
   {
-    "id": 2,
+    "id": 1,
     "img": process.env.PUBLIC_URL + 'images/UXUIPortfolio.png',
     "alt": "UX/UI online portfolio website image",
     "title": "UX/UI Portfolio",
@@ -16,7 +16,7 @@ export const data =[
     "urlLink": "https://blogs.city.ac.uk/eugelitotroyo/"
   },
   {
-    "id": 3,
+    "id": 2,
     "img": process.env.PUBLIC_URL + 'images/personalwebsite.png',
     "alt": "Personal website image",
     "title": "Personal Website",
