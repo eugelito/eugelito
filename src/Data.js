@@ -22,6 +22,14 @@ export const data =[
     "title": "Personal Website",
     "description": "Built on HTML, SCSS and React, this is my personal website showcasing my web development projects.",
     "urlLink": "https://eugelito.com/"
+  },
+  {
+    "id": 3,
+    "img": process.env.PUBLIC_URL + 'images/acbelfast.png',
+    "alt": "AC Belfast",
+    "title": "AC Belfast Football Club",
+    "description": "AC Belfast are a football club based in Belfast.",
+    "urlLink": "https://acbelfast.com/"
   }
 ]
 

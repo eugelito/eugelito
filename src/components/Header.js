@@ -16,25 +16,7 @@ function Header() {
             a <b className="billboard-role">Web Application Developer</b>{" "}
             currently working at <b>Allstate Northern Ireland.</b>
           </p>
-          <ul className="billboard-social">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/eugelito/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-linkedin-in fa-2x"></i>
-              </a>
-
-              <a
-                href="https://github.com/eugelito"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-github fa-2x"></i>
-              </a>
-            </li>
-          </ul>
+      
         </div>
         <div className="billboard-image">
           <img

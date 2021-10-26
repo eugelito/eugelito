@@ -1,25 +1,21 @@
 hr {
     border: 0;
-    height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
 .projects--container {
   display: flex;
   flex-wrap: wrap;
   text-align: left;
-  gap: 1rem;
-  justify-content: center;
   align-items: center;
 }
 
 .projects--content {
-  width: 360px;
+  width: 349px;
   height: 100%;
   background-color: #fff;
   border-radius: 18px;
   box-shadow: 0 3px 10px grey;
+  margin: 12px;
   
   .project--content__imageAnchor {
       color: #303846;
@@ -45,6 +41,10 @@ hr {
   &:active { 
     color: #303846;
   }
+  > p {
+    color: #000;
+    opacity: .6;
+  }
 }
 
 .projects--container > a {
@@ -64,7 +64,7 @@ hr {
 .helm {
   display: flex;
   justify-content: center;
-  margin: 1rem;
+  margin: 1rem 1rem 1.5rem;
   > a button {
      background-color: #303846;
      border: none;
@@ -73,7 +73,7 @@ hr {
      font-weight: 500;
      border-radius:16px;
      width: 12rem;
-     height:2rem;
+     height:2.5rem;
      &:hover {
        background-color: #10b9b3;
        cursor: pointer;

@@ -5,3 +5,14 @@
     color: #303846;
     text-decoration: underline;
   }
+
+  .contact-social {
+    display: inline-flex;
+    li a {
+      display: inline-block;
+      color: #303846;
+      &:hover {
+        color: #10b9b3;
+      }
+    }
+  }
