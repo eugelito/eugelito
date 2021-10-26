@@ -29,7 +29,7 @@ export const data =[
     "alt": "AC Belfast",
     "title": "AC Belfast Football Club",
     "description": "AC Belfast are a football club based in Belfast.",
-    "urlLink": "https://acbelfast.com/"
+    "urlLink": "https://acbelfast.com/" 
   }
 ]
 
