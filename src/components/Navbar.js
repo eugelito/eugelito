@@ -3,6 +3,7 @@ import "./Navbar.scss";
 function Navbar() {
   return (
     <nav className="navbar">
+      <div class="navbar__container">
       <a className="navbar-name" href="#home">
         <span className="navbar-name__nickname">EUGE</span>LITO TROYO
       </a>
@@ -17,6 +18,7 @@ function Navbar() {
           <a href="#contact">Contact</a>
         </li>
       </ul>
+      </div>
     </nav>
   );
 }

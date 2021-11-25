@@ -18,6 +18,8 @@ function Projects() {
                 <h4>{ post.title }</h4>
                 <p>{ post.description }</p>
                 <hr />
+                <span className="projects__content--technologies">{ post.technologies }</span>
+
                 <div className="helm">
                   <a
                     className="project--content__imageAnchor"
