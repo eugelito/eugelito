@@ -19,15 +19,6 @@ export const data =[
   },
   {
     "id": 2,
-    "img": process.env.PUBLIC_URL + 'images/personalwebsite.png',
-    "alt": "Personal website image",
-    "title": "Personal Website",
-    "technologies": "HTML | SCSS | React",
-    "description": "A personal website showcasing my web development projects.",
-    "urlLink": "https://eugelito.com/"
-  },
-  {
-    "id": 3,
     "img": process.env.PUBLIC_URL + 'images/acbelfast.png',
     "alt": "AC Belfast",
     "title": "AC Belfast Football Club",

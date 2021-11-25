@@ -20,7 +20,8 @@ function Projects() {
                 <hr />
                 <span className="projects__content--technologies">{ post.technologies }</span>
 
-                <div className="helm">
+              </div>
+              <div className="helm">
                   <a
                     className="project--content__imageAnchor"
                     href={ post.urlLink }
@@ -31,7 +32,6 @@ function Projects() {
                     <button>View website</button>
                   </a>
                 </div>
-              </div>
             </div>
           )
         })}
