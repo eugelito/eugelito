@@ -14,9 +14,16 @@ function Header() {
           </h1>
           <p>
             a <b className="billboard-role">Web Application Developer</b>{" "}
-            currently working at <b>Allstate Northern Ireland.</b>
+            currently working at{" "}
+            <a
+              className="billboard-company"
+              href="https://www.allstateni.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <b>Allstate Northern Ireland.</b>
+            </a>
           </p>
-      
         </div>
         <div className="billboard-image">
           <img
