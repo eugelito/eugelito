@@ -3,7 +3,7 @@ import "./Header.scss";
 
 /** Images */
 
-function Header() {
+const Header = () => {
   return (
     <header id="home">
       <Navbar />

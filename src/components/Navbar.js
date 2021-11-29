@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 
-function Navbar() {
+const Navbar = () => {
   return (
     <nav className="navbar">
       <div class="navbar__container">
@@ -24,3 +24,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+

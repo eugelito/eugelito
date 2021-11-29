@@ -1,7 +1,7 @@
 import "./Projects.scss";
 import Data from "../Data";
 
-function Projects() {
+const Projects = () => {
   return (
     <div class="content--projects">
       <h1 id="projects">Projects</h1>

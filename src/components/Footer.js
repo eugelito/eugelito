@@ -2,7 +2,7 @@ import "./Footer.scss";
 
 const currentYear = new Date().getFullYear();
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-text">

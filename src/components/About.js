@@ -1,6 +1,6 @@
 import "./About.scss";
 
-function About() {
+const About = () => {
   return (
     <div className="content--about">
       <h1 id="about">About</h1>
