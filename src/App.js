@@ -1,6 +1,5 @@
 /** SCSS */
 import "./App.scss";
-
 /** Components */
 import Header from "./components/Header";
 import About from "./components/About";
@@ -14,9 +13,9 @@ const App = () => {
       <Header />
       <main className="container">
         <div className="content">
-          <About />
-          <Projects />
-          <Contact />
+        <About/>
+        <Projects/>
+        <Contact/>
         </div>
       </main>
       <Footer/>

@@ -1,4 +1,5 @@
 import "./Navbar.scss";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Navbar = () => {
   return (
@@ -9,13 +10,13 @@ const Navbar = () => {
       </a>
       <ul>
         <li>
-          <a href="#about">About</a>
+        < AnchorLink href="#about">About</AnchorLink>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+        <AnchorLink href="#projects">Projects</AnchorLink>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+        <AnchorLink href="#contact">Contact</AnchorLink>
         </li>
       </ul>
       </div>
