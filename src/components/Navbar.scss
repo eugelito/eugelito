@@ -64,6 +64,9 @@ nav.navbar {
     a:hover,
     a:active {
       color: #10b9b3;
+      text-decoration: underline;
+      text-decoration-thickness: 0.5rem;
+      text-underline-offset: 8px;
     }
     a {
       font-size: 14px;
@@ -100,6 +103,7 @@ nav.navbar {
     flex-basis: 100%;
     align-items: center;
     justify-content: center;
+    margin: 1rem 0 0;
   }
 }
 
