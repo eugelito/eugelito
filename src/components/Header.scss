@@ -29,12 +29,15 @@
 
   .billboard-role {
     color: #10b9b3;
+    font-size: 18px;
   }
 
   .billboard-company {
-    color: white;
-    font-size: 20px;
     display: inline;
+    color: white;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-position: under;
   }
   
   .billboard-image {
