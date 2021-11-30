@@ -1,6 +1,6 @@
 export const data =[
   {
-    "id": 0,
+    "id": 1,
     "img": process.env.PUBLIC_URL + 'images/acbelfast.png',
     "alt": "AC Belfast",
     "title": "Athletic Club Belfast",
@@ -9,7 +9,16 @@ export const data =[
     "urlLink": "https://acbelfast.com/" 
   },
   {
-    "id": 1,
+    "id": 2,
+    "img": process.env.PUBLIC_URL + 'images/personalwebsite.png',
+    "alt": "Personal Website",
+    "title": "Personal Website",
+    "technologies": "HTML | SCSS | React",
+    "description": "A website created to showcase my personal projects. Completing these personal projects is a good way to improve my skills and helps me to learn new technologies outside of work.",
+    "urlLink": "https://eugelito.com/" 
+  },
+  {
+    "id": 3,
     "img": process.env.PUBLIC_URL + 'images/soshealthcareltd.png',
     "alt": "sos healthcare ltd website image",
     "title": "SOS Healthcare Ltd",
@@ -18,7 +27,7 @@ export const data =[
     "urlLink": "https://soshealthcareltd.co.uk/"
   },
   {
-    "id": 2,
+    "id": 4,
     "img": process.env.PUBLIC_URL + 'images/UXUIPortfolio.png',
     "alt": "UX/UI online portfolio website image",
     "title": "UX/UI Portfolio",
