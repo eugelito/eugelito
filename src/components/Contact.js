@@ -26,9 +26,9 @@ const Contact = () => {
         alert(error.message);
       });
 
-      setName("");
-      setEmailAddress("");
-      setMessage("");
+    setName("");
+    setEmailAddress("");
+    setMessage("");
   };
 
   return (
@@ -45,6 +45,8 @@ const Contact = () => {
             placeholder="Please enter your full name"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            minLength={2}
+            maxLength={50}
             required
           />
 
@@ -54,6 +56,8 @@ const Contact = () => {
             placeholder="Please enter your email address"
             value={emailAddress}
             onChange={(e) => setEmailAddress(e.target.value)}
+            minLength={3}
+            maxLength={64}
             required
           />
 
@@ -63,7 +67,9 @@ const Contact = () => {
             placeholder="Please enter your message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
-            minLength={5} maxLength={4000}
+            minLength={5}
+            maxLength={4000}
+            rows="6"
             required
           ></textarea>
 
