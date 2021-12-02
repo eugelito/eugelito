@@ -42,16 +42,12 @@
    flex-direction: column;
    justify-content: space-around;
    margin: 0 0 1rem;
-   padding: 30px 50px;
+   padding: 1rem;
 
    .hint {
      margin-bottom: 2rem;
      font-weight: bold;
    }
-}
-
-.column__parent {
-  max-width: 500px;
 }
 
 input {

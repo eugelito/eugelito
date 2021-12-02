@@ -35,7 +35,7 @@ const Contact = () => {
     <div className="content--contact">
       <h1 id="contact">Contact</h1>
       <form className="form" onSubmit={handleSubmit}>
-        <div className="column__parent">
+        <div>
           <p className="hint">
             Get in touch by completing the contact form below.
           </p>
