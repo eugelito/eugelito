@@ -5,7 +5,7 @@ export const data =[
     "alt": "AC Belfast",
     "title": "Athletic Club Belfast",
     "technologies": "HTML | SCSS | React",
-    "description": "Football club website to learn more about the club, view upcoming fixtures and recent results, contact and shop.",
+    "description": "The website allows visitors to learn more about the club, view upcoming fixtures, recent results and contact details.",
     "urlLink": "https://acbelfast.com/" 
   },
   {
@@ -14,7 +14,7 @@ export const data =[
     "alt": "Personal Website",
     "title": "Personal Website",
     "technologies": "HTML | SCSS | React",
-    "description": "A website created to showcase my personal projects. Completing these personal projects is a good way to improve my skills and helps me to learn new technologies outside of work.",
+    "description": "A website created to showcase my personal projects which apply my skills to real world projects.",
     "urlLink": "https://eugelito.com/" 
   },
   {
@@ -23,7 +23,7 @@ export const data =[
     "alt": "sos healthcare ltd website image",
     "title": "SOS Healthcare Ltd",
     "technologies": "WordPress | Elementor",
-    "description": "Informational website for a local nursing agency. SOS Healthcare Ltd recruit and supply registered nurses and healthcare assistants.",
+    "description": "Informational website for a local nursing agency that recruit and supply registered nurses and healthcare assistants across Northern Ireland.",
     "urlLink": "https://soshealthcareltd.co.uk/"
   },
   {
