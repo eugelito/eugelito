@@ -57,21 +57,24 @@ nav.navbar {
 
   ul li {
     margin-right: 20px;
+    border-bottom: 2px solid transparent;
+
+    &:hover {
+      color: #10b9b3;
+      border-bottom: 2px solid #10b9b3;
+    }
 
     &:last-child {
       margin-right: 0px;
     }
-    a:hover,
-    a:active {
-      color: #10b9b3;
-      text-decoration: underline;
-      text-decoration-thickness: 0.5rem;
-      text-underline-offset: 8px;
-    }
+
     a {
       font-size: 14px;
       font-weight: bold;
       -webkit-tap-highlight-color: transparent;
+      &:hover { 
+        color:#10b9b3;
+      }
     }
   }
 }

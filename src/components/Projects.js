@@ -5,6 +5,9 @@ const Projects = () => {
   return (
     <div class="content--projects">
       <h1 id="projects">Projects</h1>
+      <p className="hint">
+            A list of personal projects that I've worked on.
+          </p>
       <div className="projects--container">
         { Data.map(post => {
           return(

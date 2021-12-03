@@ -34,11 +34,11 @@ const Contact = () => {
   return (
     <div className="content--contact">
       <h1 id="contact">Contact</h1>
-      <form className="form" onSubmit={handleSubmit}>
-        <div>
-          <p className="hint">
+      <p className="hint">
             Get in touch by completing the contact form below.
           </p>
+      <form className="form" onSubmit={handleSubmit}>
+        <div>
           <label>Full name:</label>
           <input
             type="text"
@@ -78,7 +78,7 @@ const Contact = () => {
 
         <hr className="hr__divider" />
         <ul className="contact-social">
-          <b>Other ways to connect:</b>
+          <b>Other ways to connect with me</b>
           <li>
             <a
               href="https://www.linkedin.com/in/eugelito/"
