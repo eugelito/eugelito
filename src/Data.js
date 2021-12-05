@@ -10,15 +10,6 @@ export const data =[
   },
   {
     "id": 2,
-    "img": process.env.PUBLIC_URL + 'images/personalwebsite.png',
-    "alt": "Personal Website",
-    "title": "Personal Website",
-    "technologies": "HTML | SCSS | React",
-    "description": "A website created to showcase my personal projects which apply my skills to real world projects.",
-    "urlLink": "https://eugelito.com/" 
-  },
-  {
-    "id": 3,
     "img": process.env.PUBLIC_URL + 'images/soshealthcareltd.png',
     "alt": "sos healthcare ltd website image",
     "title": "SOS Healthcare Ltd",
@@ -27,7 +18,7 @@ export const data =[
     "urlLink": "https://soshealthcareltd.co.uk/"
   },
   {
-    "id": 4,
+    "id": 3,
     "img": process.env.PUBLIC_URL + 'images/UXUIPortfolio.png',
     "alt": "UX/UI online portfolio website image",
     "title": "UX/UI Portfolio",
