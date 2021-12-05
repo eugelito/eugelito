@@ -15,7 +15,7 @@ export const data =[
     "title": "SOS Healthcare Ltd",
     "technologies": "WordPress | Elementor",
     "description": "Informational website for a local nursing agency that recruit and supply registered nurses and healthcare assistants across Northern Ireland.",
-    "urlLink": "https://soshealthcareltd.co.uk/"
+    "urlLink": "https://soshealthcareltd.co.uk/home/"
   },
   {
     "id": 3,
