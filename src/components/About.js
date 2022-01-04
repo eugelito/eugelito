@@ -6,7 +6,8 @@ const About = () => {
     <div className="content--about">
       <h1 id="about">About</h1>
       <p className="content--about__paragraph">
-        I love building beautiful websites with an intuitive user experience. My
+   {/**  I design and develop digital technology that will engage users and provide a simplistic user experience that is a pleasure to use without complication. I have been working for Allstate Northern Ireland as a web application developer as part of the My Account team allowing insurance customers to self service their insurance policy. */} 
+       I love building beautiful websites with an intuitive user experience. My
         main interests is in Front and Back End Development, User Experience
         and User Interface Design.
       </p>
