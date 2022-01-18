@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 I'm Euge! a web application developer passionate in creating intuitive user experiences. You can also find me on linkedin.com/in/eugelito/
 
 <!--
 **eugelito/eugelito** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
