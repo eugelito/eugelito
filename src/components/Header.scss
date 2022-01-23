@@ -34,6 +34,9 @@
     text-decoration: underline;
     text-underline-position: under;
     -webkit-tap-highlight-color: transparent;
+    &:hover {
+      color: #10b9b3;
+    }
   }
   
   .billboard-image {
