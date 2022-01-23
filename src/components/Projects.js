@@ -1,5 +1,7 @@
 import "./Projects.scss";
 import Data from "../Data";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
@@ -32,7 +34,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                   >
                     {" "}
-                    <button>View website</button>
+                    <button>View website <FontAwesomeIcon icon={faExternalLinkAlt}/></button>
                   </a>
                 </div>
             </div>
