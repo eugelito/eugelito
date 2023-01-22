@@ -1,5 +1,6 @@
 import Navbar from "./Navbar";
 import "./Header.scss";
+import "animate.css";
 
 /** Images */
 
@@ -9,12 +10,11 @@ const Header = () => {
       <Navbar />
       <div className="billboard">
         <div className="billboard-text">
-          <h1>
+          <h1 className="animate__animated animate__slideInRight">
             Hey! I'm <span className="billboard-text__nickname">Euge,</span>
           </h1>
-          <p>
-            a <b>Web Application Developer</b>{" "}
-            currently working at{" "}
+          <p className="animate__animated animate__fadeInUp animate__delay-2s">
+            a <b>Web Application Developer</b> currently working at{" "}
             <a
               className="billboard-company"
               href="https://www.allstateni.com/"
@@ -37,6 +37,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
 export default Header;
