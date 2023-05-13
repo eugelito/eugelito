@@ -1,5 +1,5 @@
 hr {
-    border: 0;
+  border: 0;
 }
 
 .projects--container {
@@ -16,23 +16,25 @@ hr {
   border-radius: 18px;
   box-shadow: 0 3px 10px grey;
   margin: 12px;
-  
+
   .project--content__imageAnchor {
+    color: #303846;
+    width: 100%;
+
+    &:active,
+    &:visited {
       color: #303846;
-      width: 100%;
-     &:active, &:visited {
-       color: #303846;
-     }
+    }
   }
 
   .projects--button {
     position: absolute;
     margin-top: -15rem;
     z-index: 2;
-    display:none;
+    display: none;
   }
 
-  .projects--content:hover + .projects--button {
+  .projects--content:hover+.projects--button {
     display: block;
   }
 }
@@ -47,20 +49,23 @@ hr {
 .content--projects__description {
   padding: 0 1rem;
   min-height: 12rem;
-  &:active { 
+
+  &:active {
     color: #303846ad;
   }
-  > h4 {
+
+  >h4 {
     margin: 0 0 0rem;
   }
-  > p {
+
+  >p {
     min-height: 5rem;
     color: #222;
     opacity: .6;
   }
 }
 
-.projects--container > a {
+.projects--container>a {
   flex-basis: 50%;
 }
 
@@ -69,7 +74,8 @@ hr {
   height: 200px;
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
-  &:active { 
+
+  &:active {
     color: #303846;
   }
 }
@@ -78,28 +84,34 @@ hr {
   display: flex;
   justify-content: center;
   margin: 1rem 1rem 1.5rem;
-  > a button {
-     background-color: #303846;
-     border: none;
-     color: #fff;
-     font-size: 1rem;
-     font-weight: 500;
-     border-radius:16px;
-     width: 100%;
-     height:2.5rem;
-     &:hover {
-       background-color: #10b9b3;
-       cursor: pointer;
 
-     }
+  >a button {
+    background-color: #303846;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 16px;
+    width: 100%;
+    height: 2.5rem;
+
+    &:hover {
+      background-color: #10b9b3;
+      cursor: pointer;
+
+    }
   }
 }
 
 @media screen and (max-width: 768px) {
+
+  .projects--container {
+    justify-content: center;
+  }
+
   .projects--content {
     flex-grow: 1;
-    width: 100%;
-    margin: 12px 0;
+    margin: 12px
   }
 
   .content--projects__img {
