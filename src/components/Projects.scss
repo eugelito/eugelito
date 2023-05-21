@@ -103,6 +103,12 @@ hr {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .projects--content {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
 
   .projects--container {
@@ -111,7 +117,7 @@ hr {
 
   .projects--content {
     flex-grow: 1;
-    margin: 12px
+    margin: 12px;
   }
 
   .content--projects__img {
