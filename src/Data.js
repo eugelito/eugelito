@@ -5,7 +5,8 @@ export const data = [
     alt: "Wedding Guests Gallery",
     title: "Wedding Guests Gallery",
     technologies: "React | Tailwind CSS | Cloudinary",
-    description: "A gallery of photos captured by our guests from our wedding.",
+    description:
+      "A gallery of uploaded photos captured by our guests from our wedding.",
     urlLink: "http://karenandeuge.co.uk/",
   },
   {
