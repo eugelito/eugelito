@@ -5,7 +5,7 @@ import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
-    <div class="content--projects">
+    <div className="content--projects">
       <h1 id="projects">Projects</h1>
       <p className="hint">A list of personal projects that I've worked on.</p>
       <div className="projects--container">

@@ -1,6 +1,15 @@
 export const data = [
   {
     id: 1,
+    img: process.env.PUBLIC_URL + "images/wedding.png",
+    alt: "Wedding Guests Gallery",
+    title: "Wedding Guests Gallery",
+    technologies: "React | Tailwind CSS | Cloudinary",
+    description: "A gallery of photos captured by our guests from our wedding.",
+    urlLink: "http://karenandeuge.co.uk/",
+  },
+  {
+    id: 2,
     img: process.env.PUBLIC_URL + "images/acbelfast.png",
     alt: "AC Belfast",
     title: "Athletic Club Belfast",
@@ -10,7 +19,7 @@ export const data = [
     urlLink: "https://acbelfast.com/",
   },
   {
-    id: 2,
+    id: 3,
     img: process.env.PUBLIC_URL + "images/bfshealthcarewebsite.png",
     alt: "BFS Healthcare Ltd logo",
     title: "BFS Healthcare Ltd",
@@ -20,7 +29,7 @@ export const data = [
     urlLink: "https://bfshealthcare.co.uk/",
   },
   {
-    id: 3,
+    id: 4,
     img: process.env.PUBLIC_URL + "images/UXUIPortfolio.png",
     alt: "UX/UI online portfolio website image",
     title: "UX/UI Portfolio",

@@ -1,5 +1,4 @@
 import firebase from "firebase";
-import { initializeApp } from 'firebase/app'
 
 // Initialize Firebase
 var firebaseApp = firebase.initializeApp({
