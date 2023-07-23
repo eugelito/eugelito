@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 import "./Contact.scss";
 import { db } from "../firebase";
 
@@ -34,9 +32,7 @@ const Contact = () => {
   return (
     <div className="content--contact">
       <h1 id="contact">Contact</h1>
-      <p className="hint">
-            Get in touch by completing the contact form below.
-          </p>
+      <p className="hint">Get in touch by completing the contact form below.</p>
       <form className="form" onSubmit={handleSubmit}>
         <div>
           <label>Full name:</label>
@@ -75,38 +71,6 @@ const Contact = () => {
 
           <input type="submit" id="submitBtn" className="submitBtn" />
         </div>
-
-        <hr className="hr__divider" />
-        <ul className="contact-social">
-          <b>Other ways to connect with me</b>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/eugelito/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-              <span>LinkedIn</span>
-            </a>
-
-            <a
-              href="https://github.com/eugelito"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-              <span>GitHub</span>
-            </a>
-            <a
-              href="mailto:eugelito@outlook.com?subject=Ref: Eugelito Contact Form"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faEnvelope} />
-              <span>Email</span>
-            </a>
-          </li>
-        </ul>
       </form>
     </div>
   );

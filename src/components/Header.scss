@@ -34,14 +34,16 @@
     text-decoration: underline;
     text-underline-position: under;
     -webkit-tap-highlight-color: transparent;
+
     &:hover {
       color: #10b9b3;
     }
   }
-  
+
   .billboard-image {
     align-items: center;
     margin-top: 23rem;
+
     img {
       border-radius: 50%;
       -moz-user-select: none;
@@ -53,19 +55,45 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .billboard-text > h1 {
+  .billboard-text>h1 {
     font-size: 32px;
   }
+
   .fa-2x {
     font-size: 1.5em;
   }
 }
 
 @media only screen and (max-width: 1440px) {
-    .billboard-image {
-      img {
-        display: none;
-      }
+  .billboard-image {
+    img {
+      display: none;
     }
   }
+}
 
+.header-social {
+  display: inline-flex;
+  font-size: 1.5em;
+  align-items: center;
+  flex-wrap: wrap;
+
+  b {
+    font-size: 1rem;
+    margin-right: 1.5rem;
+  }
+
+  li a {
+    display: inline-block;
+    color: #10b9b3;
+
+    &:hover {
+      color: #fff;
+    }
+
+    span {
+      font-size: 1rem;
+      margin-left: 0.25rem
+    }
+  }
+}

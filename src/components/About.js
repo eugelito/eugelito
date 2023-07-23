@@ -10,7 +10,7 @@ import {
   faWordpress,
   faGithub,
   faGoogle,
-  faPhp,
+  faMarkdown,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 const About = () => {
@@ -18,10 +18,9 @@ const About = () => {
     <div className="content--about">
       <h1 id="about">About</h1>
       <p className="content--about__paragraph">
-        {/**  I design and develop digital technology that will engage users and provide a simplistic user experience that is a pleasure to use without complication. I have been working for Allstate Northern Ireland as a web application developer as part of the My Account team allowing insurance customers to self service their insurance policy. */}
-        I love building beautiful websites with an intuitive user experience. My
-        main interests is in Front and Back End Development, User Experience and
-        User Interface Design.
+        I'm passionate about creating beautiful web applications with intuitive
+        user experiences. My main interests include Front and Back End
+        Development, User Experience, and User Interface Design.
       </p>
       <p>Some technologies I've worked with:</p>
       <ul className="content-technologies fa-ul">
@@ -32,6 +31,10 @@ const About = () => {
         <li>
           <FontAwesomeIcon icon={faCss3} />
           CSS3
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faMarkdown} />
+          Markdown
         </li>
         <li>
           <FontAwesomeIcon icon={faCode} />
@@ -69,7 +72,7 @@ const About = () => {
 
       <a
         className="downloadCV--button"
-        href="https://drive.google.com/file/d/1S1ymTQ5zH-O8VG-7Ah4aOQJqNRkmNpnC/view?usp=sharing"
+        href="https://drive.google.com/file/d/19V09LkihrjjTuZfg7pGTbb7U-iRGIQW0/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
