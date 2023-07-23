@@ -65,10 +65,6 @@ const About = () => {
           <FontAwesomeIcon icon={faGoogle} />
           Firebase
         </li>
-        <li>
-          <FontAwesomeIcon icon={faPhp} />
-          phpMyAdmin
-        </li>
       </ul>
 
       <a
