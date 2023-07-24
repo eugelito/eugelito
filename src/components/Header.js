@@ -20,7 +20,7 @@ const Header = () => {
           <h1 className="animate__animated animate__slideInRight">
             Hey! I'm <span className="billboard-text__nickname">Euge,</span>
           </h1>
-          <p className="animate__animated animate__fadeInUp animate__delay-2s">
+          <p className="billboard-role animate__animated animate__fadeInUp animate__delay-2s">
             <b>Front End Engineer</b> at{" "}
             <a
               className="billboard-company"
