@@ -14,7 +14,7 @@ export const data = [
     img: process.env.PUBLIC_URL + "images/acbelfast.png",
     alt: "AC Belfast",
     title: "Athletic Club Belfast",
-    technologies: "React | Firebase | SCSS",
+    technologies: "React | SCSS | Firebase",
     description:
       "The website allows visitors to learn more about the club, view upcoming fixtures, recent results and contact details.",
     urlLink: "https://acbelfast.com/",
