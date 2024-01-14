@@ -42,7 +42,7 @@ const Projects = () => {
                 >
                   {" "}
                   <button>
-                    View website <FontAwesomeIcon icon={faExternalLinkAlt} />
+                    Visit website <FontAwesomeIcon icon={faExternalLinkAlt} />
                   </button>
                 </a>
               </div>
