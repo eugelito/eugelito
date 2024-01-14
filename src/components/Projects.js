@@ -2,16 +2,24 @@ import "./Projects.scss";
 import Data from "../Data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import useWow from "./wowHook/useWow";
 
 const Projects = () => {
+  useWow();
+
   return (
     <div className="content--projects">
-      <h1 id="projects">Projects</h1>
+      <h1 id="projects" className="animate__animated animate__slideInUp wow">
+        Projects
+      </h1>
       <p className="hint">A list of personal projects that I've worked on.</p>
       <div className="projects--container">
         {Data.map((post) => {
           return (
-            <div className="projects--content " key={post.id}>
+            <div
+              className="projects--content animate__animated animate__slideInUp wow"
+              key={post.id}
+            >
               <img
                 className="content--projects__img"
                 src={post.img}

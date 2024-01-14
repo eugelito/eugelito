@@ -13,6 +13,7 @@ import {
   faMarkdown,
 } from "@fortawesome/free-brands-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
+
 const About = () => {
   return (
     <div className="content--about">

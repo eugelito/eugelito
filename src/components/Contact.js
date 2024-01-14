@@ -2,12 +2,14 @@ import React, { useState } from "react";
 
 import "./Contact.scss";
 import { db } from "../firebase";
+import useWow from "./wowHook/useWow";
 
 const Contact = () => {
   const [name, setName] = useState("");
   const [emailAddress, setEmailAddress] = useState("");
   const [message, setMessage] = useState("");
 
+  useWow();
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -31,7 +33,9 @@ const Contact = () => {
 
   return (
     <div className="content--contact">
-      <h1 id="contact">Contact</h1>
+      <h1 id="contact" className="animate__animated animate__slideInUp wow">
+        Contact
+      </h1>
       <p className="hint">Get in touch by completing the contact form below.</p>
       <form className="form" onSubmit={handleSubmit}>
         <div>
