@@ -7,7 +7,7 @@ export const data = [
     technologies: "React | Tailwind CSS | Cloudinary",
     description:
       "A gallery of photos captured and uploaded by our guests from our wedding day.",
-    urlLink: "http://karenandeuge.co.uk/",
+    urlLink: "https://eugelito.github.io/kande/",
   },
   {
     id: 2,
