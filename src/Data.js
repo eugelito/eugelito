@@ -34,10 +34,10 @@ export const data = [
     img: process.env.PUBLIC_URL + "images/UXUIPortfolio.png",
     alt: "UX/UI online portfolio website image",
     title: "UX/UI Portfolio",
-    technologies: "WordPress",
+    technologies: "Docusaurus",
     description:
       "An online portfolio showcasing my User Experience (UX) and User Interface (UI) work during my university studies.",
-    urlLink: "https://eugelitouxui.wordpress.com/",
+    urlLink: "https://eugelito.github.io/uxuiportfolio/",
   },
 ];
 
