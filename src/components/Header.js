@@ -67,7 +67,7 @@ const Header = () => {
         </div>
         <div className="billboard-image">
           <img
-            src={process.env.PUBLIC_URL + "images/Euge.jpeg"}
+            src={process.env.PUBLIC_URL + "images/Euge.webp"}
             width="250"
             height="250"
             unselectable="on"

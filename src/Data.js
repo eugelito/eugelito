@@ -1,7 +1,7 @@
 export const data = [
   {
     id: 1,
-    img: process.env.PUBLIC_URL + "images/wedding.png",
+    img: process.env.PUBLIC_URL + "images/wedding.webp",
     alt: "Wedding Guests Gallery",
     title: "Wedding Guests Gallery",
     technologies: "React | Tailwind CSS | Cloudinary",
@@ -11,7 +11,7 @@ export const data = [
   },
   {
     id: 2,
-    img: process.env.PUBLIC_URL + "images/acbelfast.png",
+    img: process.env.PUBLIC_URL + "images/acbelfast.webp",
     alt: "AC Belfast",
     title: "Athletic Club Belfast",
     technologies: "React | SCSS | Firebase",
@@ -21,7 +21,7 @@ export const data = [
   },
   {
     id: 3,
-    img: process.env.PUBLIC_URL + "images/bfshealthcarewebsite.png",
+    img: process.env.PUBLIC_URL + "images/bfshealthcarewebsite.webp",
     alt: "BFS Healthcare Ltd logo",
     title: "BFS Healthcare Ltd",
     technologies: "WordPress | Elementor",
@@ -31,7 +31,7 @@ export const data = [
   },
   {
     id: 4,
-    img: process.env.PUBLIC_URL + "images/UXUIPortfolio.png",
+    img: process.env.PUBLIC_URL + "images/UXUIPortfolio.webp",
     alt: "UX/UI online portfolio website image",
     title: "UX/UI Portfolio",
     technologies: "Docusaurus",
