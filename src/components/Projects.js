@@ -7,6 +7,9 @@ import useWow from "./wowHook/useWow";
 const Projects = () => {
   useWow();
 
+  // Sort the data by id in descending order
+  const sortedData = [...Data].sort((a, b) => b.id - a.id);
+
   return (
     <div className="content--projects">
       <h1 id="projects" className="animate__animated animate__slideInUp wow">
@@ -14,7 +17,7 @@ const Projects = () => {
       </h1>
       <p className="hint">A list of personal projects that I've worked on.</p>
       <div className="projects--container">
-        {Data.map((post) => {
+        {sortedData.map((post) => {
           return (
             <div
               className="projects--content animate__animated animate__slideInUp wow"
@@ -36,13 +39,15 @@ const Projects = () => {
               <div className="helm">
                 <a
                   className="project--content__imageAnchor"
-                  href={post.urlLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={post.urlLink !== "#" ? post.urlLink : undefined}
+                  target={post.urlLink !== "#" ? "_blank" : undefined}
+                  rel={post.urlLink !== "#" ? "noopener noreferrer" : undefined}
                 >
-                  {" "}
-                  <button>
-                    Visit website <FontAwesomeIcon icon={faExternalLinkAlt} />
+                  <button disabled={post.urlLink === "#"}>
+                    {post.urlLink === "#"
+                      ? "Link coming soon"
+                      : "Visit website"}{" "}
+                    <FontAwesomeIcon icon={faExternalLinkAlt} />
                   </button>
                 </a>
               </div>
