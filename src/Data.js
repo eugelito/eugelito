@@ -16,7 +16,7 @@ export const data = [
     title: "Athletic Club Belfast",
     technologies: "React | SCSS | Firebase",
     description:
-      "The website allows visitors to learn more about the club, view upcoming fixtures, recent results and contact details.",
+      "A CRUD application that allows visitors to learn more about the club, view upcoming fixtures, recent results, and contact details.",
     urlLink: "https://acbelfast.com/",
   },
   {
