@@ -47,7 +47,7 @@ export const data = [
     technologies: "Vite | Tailwind CSS | Material UI",
     description:
       "Micro SaaS application that allows users to effortlessly create personalized, professional quotes for their customers and track acceptance in real-time.",
-    urlLink: "#",
+    urlLink: "https://sendquote.app",
   },
 ];
 
