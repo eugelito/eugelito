@@ -35,7 +35,9 @@ const Projects = () => {
               key={post.id}
             >
               <img
-                className={`content--projects__img ${post.title === "Noah Mobile App" ? "noah-image" : ""}`}
+                className={`content--projects__img ${
+                  post.title === "Noah" ? "noah-image" : ""
+                }`}
                 src={post.img}
                 alt={post.alt}
               />
