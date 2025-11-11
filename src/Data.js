@@ -8,6 +8,8 @@ export const data = [
     description:
       "An online portfolio showcasing my User Experience (UX) and User Interface (UI) work during my university studies.",
     urlLink: "https://eugelito.github.io/uxuiportfolio/",
+    isMobileApp: false,
+    isDisabled: false,
   },
   {
     id: 2,
@@ -18,6 +20,8 @@ export const data = [
     description:
       "Informational website for a local nursing agency that recruit and supply registered nurses and healthcare assistants across Northern Ireland.",
     urlLink: "https://bfshealthcare.co.uk/",
+    isMobileApp: false,
+    isDisabled: false,
   },
   {
     id: 3,
@@ -28,6 +32,8 @@ export const data = [
     description:
       "A CRUD application that allows visitors to learn more about the club, view upcoming fixtures, recent results, and contact details.",
     urlLink: "https://acbelfast.com/",
+    isMobileApp: false,
+    isDisabled: false,
   },
   {
     id: 4,
@@ -38,6 +44,8 @@ export const data = [
     description:
       "A gallery of photos captured and uploaded by our guests from our wedding day.",
     urlLink: "https://eugelito.github.io/kande/",
+    isMobileApp: false,
+    isDisabled: false,
   },
   {
     id: 5,
@@ -48,6 +56,20 @@ export const data = [
     description:
       "Micro SaaS application that allows users to effortlessly create personalised, professional quotes for their customers and track acceptance in real-time.",
     urlLink: "https://sendquote.app",
+    isMobileApp: false,
+    isDisabled: false,
+  },
+  {
+    id: 6,
+    img: process.env.PUBLIC_URL + "images/noah.webp",
+    alt: "Noah",
+    title: "Noah",
+    technologies: "React Native | iOS | Android",
+    description:
+      "Baby logging mobile app to help parents track feeds, diapers, sleep and other entries.",
+    urlLink: "",
+    isMobileApp: true,
+    isDisabled: true,
   },
 ];
 

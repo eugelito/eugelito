@@ -18,13 +18,24 @@ const Projects = () => {
       <p className="hint">A list of personal projects that I've worked on.</p>
       <div className="projects--container">
         {sortedData.map((post) => {
+          const isDisabled =
+            post.isDisabled || post.urlLink === "#" || !post.urlLink;
+
+          const buttonText = post.isMobileApp
+            ? isDisabled
+              ? "App coming soon"
+              : "View app"
+            : isDisabled
+            ? "Link coming soon"
+            : "Visit website";
+
           return (
             <div
               className="projects--content animate__animated animate__slideInUp wow"
               key={post.id}
             >
               <img
-                className="content--projects__img"
+                className={`content--projects__img ${post.title === "Noah Mobile App" ? "noah-image" : ""}`}
                 src={post.img}
                 alt={post.alt}
               />
@@ -37,19 +48,27 @@ const Projects = () => {
                 </span>
               </div>
               <div className="helm">
-                <a
-                  className="project--content__imageAnchor"
-                  href={post.urlLink !== "#" ? post.urlLink : undefined}
-                  target={post.urlLink !== "#" ? "_blank" : undefined}
-                  rel={post.urlLink !== "#" ? "noopener noreferrer" : undefined}
-                >
-                  <button disabled={post.urlLink === "#"}>
-                    {post.urlLink === "#"
-                      ? "Link coming soon"
-                      : "Visit website"}{" "}
-                    <FontAwesomeIcon icon={faExternalLinkAlt} />
+                {!isDisabled ? (
+                  <a
+                    className="project--content__imageAnchor"
+                    href={post.urlLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button>
+                      {buttonText} <FontAwesomeIcon icon={faExternalLinkAlt} />
+                    </button>
+                  </a>
+                ) : (
+                  <button
+                    className="project--content__imageAnchor"
+                    type="button"
+                    disabled
+                    aria-disabled="true"
+                  >
+                    {buttonText} <FontAwesomeIcon icon={faExternalLinkAlt} />
                   </button>
-                </a>
+                )}
               </div>
             </div>
           );
