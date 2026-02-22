@@ -59,18 +59,18 @@ export const data = [
     isMobileApp: false,
     isDisabled: false,
   },
-  {
-    id: 6,
-    img: process.env.PUBLIC_URL + "images/noah.webp",
-    alt: "Noah",
-    title: "Noah",
-    technologies: "React Native | iOS | Android",
-    description:
-      "Baby logging mobile app to help parents track feeds, diapers, sleep and other entries.",
-    urlLink: "",
-    isMobileApp: true,
-    isDisabled: true,
-  },
+  // {
+  //   id: 6,
+  //   img: process.env.PUBLIC_URL + "images/noah.webp",
+  //   alt: "Noah",
+  //   title: "Noah",
+  //   technologies: "React Native | iOS | Android",
+  //   description:
+  //     "Baby logging mobile app to help parents track feeds, diapers, sleep and other entries.",
+  //   urlLink: "",
+  //   isMobileApp: true,
+  //   isDisabled: true,
+  // },
 ];
 
 export default data;
