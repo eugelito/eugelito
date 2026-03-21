@@ -67,7 +67,7 @@ const About = () => {
     <div className="content--about text-[var(--color-text)]">
       <h1
         id="about"
-        className="m-0 scroll-mt-24 border-0 pb-1 text-3xl font-extrabold tracking-tight text-[var(--color-primary-darker)] sm:text-4xl"
+        className="m-0 scroll-mt-24 border-0 pb-1 text-3xl font-extrabold tracking-tight text-[var(--color-primary-dark)] sm:text-4xl"
       >
         About
         <span
@@ -75,14 +75,14 @@ const About = () => {
           aria-hidden
         />
       </h1>
-      <p className="mt-6 max-w-2xl text-pretty leading-relaxed text-[var(--color-text-muted)]">
+      <p className="mt-6 max-w-2xl text-pretty leading-relaxed text-[var(--color-text-muted)] font-medium">
         I&apos;m passionate about creating beautiful web applications with
         intuitive user experiences. My main interests include Front and Back End
         Development, User Experience, and User Interface Design.
       </p>
 
       <div className="mt-10">
-        <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-secondary)]/25 bg-[var(--color-accent-secondary-light)]/80 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-[var(--color-primary-darker)] shadow-sm backdrop-blur-sm">
+        <p className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--color-accent-secondary)]/25 bg-[var(--color-accent-secondary-light)]/80 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-[var(--color-primary-dark)] shadow-sm backdrop-blur-sm">
           Technologies I've worked with
         </p>
         <ul className="m-0 grid list-none grid-cols-2 gap-2 p-0 min-[425px]:grid-cols-3 sm:gap-3">

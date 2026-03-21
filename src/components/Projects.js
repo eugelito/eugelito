@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="content--projects text-[var(--color-text)]">
       <h1
         id="projects"
-        className="m-0 scroll-mt-24 border-0 pb-1 text-3xl font-extrabold tracking-tight text-[var(--color-primary-darker)] sm:text-4xl"
+        className="m-0 scroll-mt-24 border-0 pb-1 text-3xl font-extrabold tracking-tight text-[var(--color-primary-dark)] sm:text-4xl"
       >
         Projects
         <span
@@ -17,7 +17,7 @@ const Projects = () => {
           aria-hidden
         />
       </h1>
-      <p className="hint mt-4 max-w-xl text-pretty text-[var(--color-text-muted)]">
+      <p className="hint mt-4 max-w-xl text-pretty text-[var(--color-text-muted)] font-medium">
         A list of personal projects that I&apos;ve worked on.
       </p>
       <div className="mt-10 grid grid-cols-1 gap-4 text-left sm:gap-5 md:grid-cols-2 md:gap-6 xl:grid-cols-3">
@@ -47,21 +47,21 @@ const Projects = () => {
                   alt={post.alt}
                 />
                 <div
-                  className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--color-primary-darker)]/25 to-transparent opacity-0 motion-safe-transition group-hover:opacity-100"
+                  className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[var(--color-primary-dark)]/25 to-transparent opacity-0 motion-safe-transition group-hover:opacity-100"
                   aria-hidden
                 />
               </div>
               <div className="flex min-h-0 flex-1 flex-col gap-3 px-5 pb-5 pt-5 sm:px-6">
-                <h4 className="m-0 text-lg font-bold leading-snug text-[var(--color-primary-darker)]">
+                <h4 className="m-0 text-lg font-bold leading-snug text-[var(--color-primary-dark)]">
                   {post.title}
                 </h4>
                 <p className="m-0 flex-1 text-sm leading-relaxed text-[var(--color-text-muted)]">
                   {post.description}
                 </p>
-                <hr className="m-0 border-0 border-t border-[var(--color-border)]/80" />
                 <span className="m-0 text-xs font-semibold leading-snug tracking-wide text-[var(--color-accent-dark)]">
                   {post.technologies}
                 </span>
+                <hr className="m-0 border-0 border-t border-[var(--color-border)]/80" />
                 <div className="mt-auto w-full pt-1">
                   {!isDisabled ? (
                     <a

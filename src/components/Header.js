@@ -8,9 +8,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const social = [
   {
-    href: "https://github.com/eugelito",
-    icon: faGithub,
-    label: "GitHub",
+    href: "mailto:eugelito@outlook.com?subject=Ref: Eugelito Contact",
+    icon: faEnvelope,
+    label: "Email",
   },
   {
     href: "https://www.linkedin.com/in/eugelito/",
@@ -18,15 +18,15 @@ const social = [
     label: "LinkedIn",
   },
   {
+    href: "https://github.com/eugelito",
+    icon: faGithub,
+    label: "GitHub",
+  },
+  {
     href: "https://instagram.com/eugelitotroyo",
     icon: faInstagram,
     label: "Instagram",
-  },
-  {
-    href: "mailto:eugelito@outlook.com?subject=Ref: Eugelito Contact",
-    icon: faEnvelope,
-    label: "Email",
-  },
+  }
 ];
 
 const Header = () => {
