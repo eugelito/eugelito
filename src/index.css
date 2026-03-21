@@ -1,28 +1,102 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Core brand (blue slate) */
+    --color-primary: #3f5f7a;
+    --color-primary-dark: #2f4a61;
+    --color-primary-darker: #243a4d;
+    --color-primary-light: #6f8fa8;
+    --color-primary-muted: #9fb4c4;
+
+    /* Teal accent – main highlight */
+    --color-accent: #14b8a6;
+    --color-accent-dark: #0f766e;
+    --color-accent-light: #5eead4;
+    --color-accent-bg: #ecfeff;
+
+    /* Secondary – warm contrast */
+    --color-accent-secondary: #f59e0b;
+    --color-accent-secondary-light: #fef3c7;
+
+    /* Neutrals */
+    --color-bg: #f4f7fa;
+    --color-surface: #ffffff;
+    --color-border: #d6e0e8;
+
+    /* Text */
+    --color-text: #1a2b3a;
+    --color-text-muted: #5f7385;
+
+    /* On-color text */
+    --color-on-primary: #f2f7fb;
+    --color-on-accent: #042f2e;
+
+    /* Layout & motion (2026-ish system) */
+    --radius-sm: 0.625rem;
+    --radius-md: 1rem;
+    --radius-lg: 1.25rem;
+    --radius-xl: 1.5rem;
+    --radius-2xl: 1.75rem;
+    --radius-full: 9999px;
+    --shadow-sm: 0 1px 2px rgb(24 58 77 / 0.06);
+    --shadow-md: 0 8px 24px rgb(24 58 77 / 0.08);
+    --shadow-lg: 0 20px 50px rgb(24 58 77 / 0.12);
+    --shadow-glow-accent: 0 0 0 1px rgb(20 184 166 / 0.12),
+      0 12px 40px rgb(20 184 166 / 0.15);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    --duration-fast: 180ms;
+    --duration-normal: 280ms;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-bg);
+    font-size: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: rgb(20 184 166 / 0.22);
+    color: var(--color-text);
+  }
+
+  h1 + p {
+    margin-top: 0;
+  }
 }
 
+@layer utilities {
+  .motion-safe-transition {
+    transition-property: transform, box-shadow, border-color, background-color,
+      color, opacity;
+    transition-duration: var(--duration-normal);
+    transition-timing-function: var(--ease-out-expo);
+  }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-h1 + p {
-  margin-top: 0;
+  @media (prefers-reduced-motion: reduce) {
+    .motion-safe-transition {
+      transition-duration: 0.01ms !important;
+    }
+  }
 }

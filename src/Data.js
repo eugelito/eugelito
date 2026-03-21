@@ -1,7 +1,9 @@
+const base = import.meta.env.BASE_URL;
+
 export const data = [
   {
     id: 1,
-    img: process.env.PUBLIC_URL + "images/UXUIPortfolio.webp",
+    img: `${base}images/UXUIPortfolio.webp`,
     alt: "UX/UI online portfolio website image",
     title: "UX/UI Portfolio",
     technologies: "Docusaurus",
@@ -13,7 +15,7 @@ export const data = [
   },
   {
     id: 2,
-    img: process.env.PUBLIC_URL + "images/bfshealthcarewebsite.webp",
+    img: `${base}images/bfshealthcarewebsite.webp`,
     alt: "BFS Healthcare Ltd logo",
     title: "BFS Healthcare Ltd",
     technologies: "WordPress | Elementor",
@@ -25,7 +27,7 @@ export const data = [
   },
   {
     id: 3,
-    img: process.env.PUBLIC_URL + "images/acbelfast.webp",
+    img: `${base}images/acbelfast.webp`,
     alt: "AC Belfast",
     title: "Athletic Club Belfast",
     technologies: "React | SCSS | Firebase",
@@ -37,7 +39,7 @@ export const data = [
   },
   {
     id: 4,
-    img: process.env.PUBLIC_URL + "images/wedding.webp",
+    img: "/images/wedding.webp",
     alt: "Wedding Guests Gallery",
     title: "Wedding Guests Gallery",
     technologies: "React | Tailwind CSS | Cloudinary",
@@ -49,7 +51,7 @@ export const data = [
   },
   {
     id: 5,
-    img: process.env.PUBLIC_URL + "images/sendQuote.webp",
+    img: `${base}images/sendQuote.webp`,
     alt: "SendQuote",
     title: "SendQuote",
     technologies: "Vite | Tailwind CSS | Material UI",
@@ -61,7 +63,7 @@ export const data = [
   },
   // {
   //   id: 6,
-  //   img: process.env.PUBLIC_URL + "images/noah.webp",
+  //   img: "/images/noah.webp",
   //   alt: "Noah",
   //   title: "Noah",
   //   technologies: "React Native | iOS | Android",
