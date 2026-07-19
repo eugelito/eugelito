@@ -41,7 +41,7 @@ const Header = () => {
             </h1>
             <p className="mt-4 text-pretty text-sm leading-relaxed text-[var(--color-primary-muted)] sm:text-base md:text-lg">
               <span className="font-semibold text-[var(--color-on-primary)]">
-                Front End Engineer
+                Product Engineer
               </span>{" "}
               at{" "}
               <a
