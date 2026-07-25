@@ -39,7 +39,7 @@ export const data = [
   },
   {
     id: 4,
-    img: "/images/wedding.webp",
+    img: `${base}images/wedding.webp`,
     alt: "Wedding Guests Gallery",
     title: "Wedding Guests Gallery",
     technologies: "React | Tailwind CSS | Cloudinary",
@@ -61,9 +61,22 @@ export const data = [
     isMobileApp: false,
     isDisabled: false,
   },
+  {
+    id: 6,
+    img: `${base}images/onewebpage.webp`,
+    alt: "One Webpage landing page for local business websites",
+    title: "One Webpage",
+    technologies: "Next.js | Stripe | Resend",
+    description:
+      "Custom-built one-page websites designed for local businesses, enabling customers to explore services, get directions, and easily make contact.",
+ 
+    urlLink: "https://onewebpage.co.uk/",
+    isMobileApp: false,
+    isDisabled: false,
+  },
   // {
-  //   id: 6,
-  //   img: "/images/noah.webp",
+  //   id: 7,
+  //   img: `${base}images/noah.webp`,
   //   alt: "Noah",
   //   title: "Noah",
   //   technologies: "React Native | iOS | Android",
